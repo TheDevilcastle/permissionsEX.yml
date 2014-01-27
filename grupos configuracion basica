@@ -3,64 +3,18 @@ groups:
     default: true
     prefix: '&7[nuevo]'
     permissions:
-    - essentials.afk
-    - essentials.home
-    - essentials.sethome
     - modifyworld.*
-    - essentials.help
-    - essentials.list
-    - essentials.rules
     - essentials.spawn
-    - essentials.tpaccept
-    - essentials.tpdeny
-    - essentials.tpa
-    - essentials.mail
-    - essentials.mail.send
-    - essentials.balance
-    - essentials.msg
     - essentials.warp
     - essentials.warp.list
-    - AnimalShop.use
+    - usb.island.create
+    - usb.island.create
+    - usb.island.create
+    - usb.island.sethome
     inheritance:
     - null
     options:
       rank: '1000'
-      build: true
-      suffix: ''
-  Moderator:
-    default: false
-    prefix: '&7[&cMod&7]&c'
-    permissions:
-    - essentials.ban
-    - essentials.ban.offline
-    - essentials.tempban
-    - essentials.tempban.offline
-    - essentials.unban
-    - essentials.vanish
-    - essentials.vanish.see
-    - essentials.tp
-    - essentials.tp.others
-    - essentials.chat.url
-    - essentials.signs.color
-    - essentials.nick
-    - essentials.nick.color
-    - essentials.socialspy
-    inheritance:
-    - Default
-    options:
-      rank: '200'
-      build: true
-      suffix: ''
-  Admin:
-    default: false
-    prefix: '&f[&dAdmin&f] '
-    permissions:
-    - '*'
-    - essentials.signs.color
-    - AnimalShop.create
-    inheritance:
-    options:
-      rank: '1'
       build: true
       suffix: ''
 users:
